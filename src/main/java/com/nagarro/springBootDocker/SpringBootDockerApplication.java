@@ -11,7 +11,7 @@ public class SpringBootDockerApplication {
 
 	@GetMapping("/message")
 	public String getMessage() {
-		return "Welcome to Java Community";
+		return "Welcome to Java Community world";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootDockerApplication.class, args);
